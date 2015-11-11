@@ -1,6 +1,6 @@
 ## Jira Server in Docker
 
-[![CircleCI Build Status](https://img.shields.io/circleci/project/million12/jira/master.svg)](https://circleci.com/gh/millio12/docker-jira)
+[![CircleCI Build Status](https://img.shields.io/circleci/project/million12/docker-jira/master.svg)](https://circleci.com/gh/millio12/docker-jira)
 [![GitHub Open Issues](https://img.shields.io/github/issues/million12/docker-jira.svg)](https://github.com/million12/docker-jira)
 [![GitHub Stars](https://img.shields.io/github/stars/million12/docker-jira.svg)](https://github.com/million12/docker-jira)
 [![GitHub Forks](https://img.shields.io/github/forks/million12/docker-jira.svg)](https://github.com/million12/docker-jira)  

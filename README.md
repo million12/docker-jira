@@ -1,4 +1,13 @@
 ## Jira Server in Docker
+
+[![CircleCI Build Status](https://img.shields.io/circleci/project/million12/jira/master.svg)](https://circleci.com/gh/millio12/docker-jira)
+[![GitHub Open Issues](https://img.shields.io/github/issues/million12/docker-jira.svg)](https://github.com/million12/docker-jira)
+[![GitHub Stars](https://img.shields.io/github/stars/million12/docker-jira.svg)](https://github.com/million12/docker-jira)
+[![GitHub Forks](https://img.shields.io/github/forks/million12/docker-jira.svg)](https://github.com/million12/docker-jira)  
+[![Stars on Docker Hub](https://img.shields.io/docker/stars/million12/jira.svg)](https://hub.docker.com/r/million12/jira)
+[![Pulls on Docker Hub](https://img.shields.io/docker/pulls/million12/jira.svg)](https://hub.docker.com/r/million12/jira)  
+[![Docker Layers](https://badge.imagelayers.io/million12/jira:latest.svg)](https://hub.docker.com/r/million12/jira)
+
 [Docker image](https://hub.docker.com/r/million12/jira) with [Atlassian Jira](https://www.atlassian.com/software/jira) build in docker. Integrated with MySQL/MariaDB support. Base image is [million12/centos-supervisor](https://hub.docker.com/r/million12/centos-supervisor/) which is based on offcial CentOS-7 image.  
 
 User will need a licence to be able to finish setup. Either evaluation one or full.

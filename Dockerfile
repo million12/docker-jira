@@ -1,7 +1,9 @@
 FROM million12/centos-supervisor
 MAINTAINER Przemyslaw Ozgo linux@ozgo.info
 
-ENV JIRA_VERSION=7.0.0
+# Supported DB: HSQL(default) and MySQL(MariaDB). to select MySQL use DB_SUPPORT=mysql or DB_SUPPORT=mariadb on docekr run.
+ENV   DB_SUPPORT=default \
+      JIRA_VERSION=7.0.0
 
 RUN \
   rpm --rebuilddb && yum clean all && \
@@ -11,6 +13,3 @@ RUN \
   chmod +x /tmp/jira.bin
 
 ADD container-files/ /
-
-# Supported DB: HSQL(default) and MySQL(MariaDB). to select MySQL use DB_SUPPORT=mysql or DB_SUPPORT=mariadb on docekr run.
-ENV DB_SUPPORT=default
